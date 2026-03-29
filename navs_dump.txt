@@ -1,0 +1,106 @@
+--- index.html ---
+<nav id="main-nav" class="bg-transparent fixed w-full top-0 z-50 transition-all duration-300">
+    <div class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+      <div id="nav-brand" class="text-2xl font-serif italic text-white dark:text-[#ffb4ab] drop-shadow-md transition-colors duration-300">Gospel Outreach</div>
+      <!-- Desktop Nav -->
+      <div class="hidden md:flex items-center space-x-8">
+        <a id="nav-home" class="text-sm font-medium tracking-wide text-white dark:text-[#ffb4ab] font-bold border-b-2 border-white dark:border-[#ffb4ab] pb-1 hover:text-white transition-colors duration-300 drop-shadow-md"
+          href="index.html">Home</a>
+        <a class="nav-link text-sm font-medium tracking-wide text-white dark:text-[#e1e3e3] opacity-90 hover:text-white transition-colors duration-300 drop-shadow-md"
+          href="about.html">About Us</a>
+        <a class="nav-link text-sm font-medium tracking-wide text-white dark:text-[#e1e3e3] opacity-90 hover:text-white transition-colors duration-300 drop-shadow-md"
+          href="sermons.html">Sermons</a>
+        <a class="nav-link text-sm font-medium tracking-wide text-white dark:text-[#e1e3e3] opacity-90 hover:text-white transition-colors duration-300 drop-shadow-md"
+          href="give.html">Give</a>
+        <a class="nav-link text-sm font-medium tracking-wide text-white dark:text-[#e1e3e3] opacity-90 hover:text-white transition-colors duration-300 drop-shadow-md"
+          href="events.html">Events</a>
+        <a class="nav-link text-sm font-medium tracking-wide text-white dark:text-[#e1e3e3] opacity-90 hover:text-white transition-colors duration-300 drop-shadow-md"
+          href="contact.html">Contact</a>
+      </div>
+      <button
+        class="bg-primary-container text-on-primary px-6 py-2 rounded-full font-medium text-sm transition-all duration-200 active:scale-95 shadow-md">
+        New Here
+      </button>
+    </div>
+  </nav>
+--- sermons.html ---
+<nav class="bg-[#ffffff]/80 dark:bg-[#1a1c1c]/80 backdrop-blur-md docked full-width top-0 sticky z-50">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-serif italic text-[#800000] dark:text-[#ffb4ab]">Gospel Outreach</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="index.html">Home</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="about.html">About Us</a>
+<a class="text-sm font-medium tracking-wide text-[#800000] dark:text-[#ffb4ab] font-bold border-b-2 border-[#800000] dark:border-[#ffb4ab] pb-1" href="sermons.html">Sermons</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="give.html">Give</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="events.html">Events</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="contact.html">Contact</a>
+</div>
+<button class="bg-primary-container text-on-primary px-8 py-2 rounded-full font-medium hover:opacity-90 transition-all active:scale-95">
+                Give
+            </button>
+</div>
+</nav>
+--- about.html ---
+<nav class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-serif italic text-[#800000] dark:text-[#ffb4ab]">
+                Gospel Outreach
+            </div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="index.html">Home</a>
+<a class="text-sm font-medium tracking-wide text-[#800000] dark:text-[#ffb4ab] font-bold border-b-2 border-[#800000] dark:border-[#ffb4ab] pb-1" href="about.html">About Us</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="sermons.html">Sermons</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="give.html">Give</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="events.html">Events</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="contact.html">Contact</a>
+</div>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-full text-sm font-medium hover:opacity-90 transition-all active:scale-[0.98]">
+                New Here
+            </button>
+</nav>
+--- contact.html ---
+<nav class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-serif italic text-[#800000] dark:text-[#ffb4ab]">Gospel Outreach</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="index.html">Home</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="about.html">About Us</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="sermons.html">Sermons</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="give.html">Give</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="events.html">Events</a>
+<a class="text-sm font-medium tracking-wide text-[#800000] dark:text-[#ffb4ab] font-bold border-b-2 border-[#800000] dark:border-[#ffb4ab] pb-1" href="contact.html">Contact</a>
+</div>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-full font-medium text-sm hover:opacity-90 active:scale-95 transition-all">New Here</button>
+</nav>
+--- give.html ---
+<nav class="bg-[#f9f9f9]/80 dark:bg-slate-950/80 backdrop-blur-md fixed top-0 w-full z-50"><div class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-serif italic text-[#800000] dark:text-red-500">Gospel Outreach</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="index.html">Home</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="about.html">About Us</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="sermons.html">Sermons</a>
+<a class="text-sm font-medium tracking-wide text-[#800000] dark:text-[#ffb4ab] font-bold border-b-2 border-[#800000] dark:border-[#ffb4ab] pb-1" href="give.html">Give</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="events.html">Events</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="contact.html">Contact</a>
+</div>
+<button class="md:hidden text-[#800000] dark:text-red-500">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div></nav>
+--- events.html ---
+<nav class="bg-[#f9f9f9]/80 dark:bg-slate-950/80 backdrop-blur-md sticky top-0 z-50 transition-all duration-300">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-serif italic text-[#800000] dark:text-red-500">
+                Gospel Outreach
+            </div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="index.html">Home</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="about.html">About Us</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="sermons.html">Sermons</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="give.html">Give</a>
+<a class="text-sm font-medium tracking-wide text-[#800000] dark:text-[#ffb4ab] font-bold border-b-2 border-[#800000] dark:border-[#ffb4ab] pb-1" href="events.html">Events</a>
+<a class="text-sm font-medium tracking-wide text-[#1a1c1c] dark:text-[#e1e3e3] opacity-80 hover:text-[#800000] transition-colors duration-300" href="contact.html">Contact</a>
+</div>
+<button class="bg-primary-container text-on-primary px-6 py-2 rounded-full font-medium active:scale-95 transition-all duration-200 ease-in-out">
+                Give
+            </button>
+</div>
+</nav>
